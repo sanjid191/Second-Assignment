@@ -1,0 +1,169 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+#section-1{
+   display: flex;
+   margin-bottom: 20px;
+   align-items: center;
+ }
+
+nav{
+ display: flex;
+}
+
+.nav-style{
+  margin-right: 20px;
+}
+
+.div-1{
+  padding-right: 650px;
+  padding-left: 15%;
+}
+
+#section-2{
+  display: flex;
+  font-family: 'PT Serif', serif;
+  width: 50%;
+  padding-left:15% ;
+  margin-bottom: 30px;
+}
+
+#section-2 img{
+  padding-left: 70%;
+}
+
+#section-3{
+  display: grid;
+  background-color: lightyellow;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15%;
+  grid-template-columns: repeat(3,330px);
+  grid-gap: 50px;
+}
+
+.fa-star.filled{
+  color: aqua;
+}
+
+.first-grid{
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 10px 10px 20px lightgray;
+  background-color: cornsilk;
+}
+
+.first-grid img{
+  align-items: center;
+}
+
+#button-right{
+  padding-left: 700px;
+}
+
+.button-right{
+  padding-top: 30px;
+  text-align: right;
+  padding-right: 30%;
+  padding-bottom: 30px;
+}
+
+.header{
+  padding-left: 38%;
+  padding-bottom: 40px;
+  
+}
+#section-4{
+  padding-top: 20px;
+  padding-left: 38%;
+  font-size: 20px;
+  padding-bottom: 20px;
+  background-color: lightgrey;
+  box-shadow: 2px 2px 20px 3px lightsteelblue;
+}
+
+.all-button{
+  background-color: lightpink;
+  font-size: 25px;
+  color: black;
+  border-radius: 20px;
+}
+
+footer{
+  padding-top: 15px;
+  background-color: black;
+  color: wheat;
+  text-align: center;
+}
+
+.fab{
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+
+
+
+/* Responsiveness ( Mobile ) */
+
+@media (max-width:700px) {
+  #section-1{
+    flex-direction: column;
+  }
+  nav{
+    flex-direction: column;
+  }
+.div-1{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+  #section-2{
+    flex-direction: column;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #section-3{
+    display: flex;
+    flex-direction: column;
+  }
+  #section-4{
+    padding-left: 5px;
+  }
+}
+
+
+
+/* Responsiveness ( tab ) */
+
+/* @media ( max-width:1200px ) {
+  #section-1{
+    flex-direction: column;
+  }
+  nav{
+    flex-direction: column;
+  }
+.div-1{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+  #section-2{
+    flex-direction: column;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #section-3{
+    display: grid;
+    background-color: lightyellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:0%;
+    grid-template-columns: repeat(2,200px);
+    grid-gap: 10px;
+  }
+  
+} */
+
+
+
